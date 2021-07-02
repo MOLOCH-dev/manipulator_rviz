@@ -2,16 +2,35 @@
 Repo with new URDF of manipulator to visualize in RViz and using command line as well as gui to give input to RViz  
 ### Steps to run the demo  
 
-*  cd your_ws/src 
+* Create a new catkin workspace
+
+```
+  source /opt/ros/noetic/setup.bash
+  mkdir -p ~/catkin_ws/src
+  cd ~/catkin_ws/
+  catkin_make
+  source devel/setup.bash
+```
+
+*  Clone this repo
+```
+  cd ~/catkin_ws/src
+  git clone https://github.com/MOLOCH-dev/manipulator_rviz.git 
+```
   
   
-*  git clone https://github.com/MOLOCH-dev/manipulator_rviz.git  
-  
-  
-*  roslaunch manipulator_description display.launch  
-    *  If you come across this error  
+*  Rebuild
+```
+  cd ~/catkin_ws
+  catkin_make
+```
+*  Run the launch file
+```
+  oslaunch manipulator_description display.launch 
+```
+   *  If you come across this error  
 Could not find the GUI, install the 'joint_state_publisher_gui' package  
-    *  Install  using  
+   *  Install  using  
 sudo apt install ros-<your_version_of_ros>-joint-state-publisher-gui 
 ----------------------------------------------------------------------  
   
