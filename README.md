@@ -5,15 +5,15 @@ Repo with new URDF of manipulator to visualize in RViz and using command line as
 *  cd your_ws/src 
   
   
-*  git clone https://github.com/shan515/manipulator_rviz.git  
+*  git clone https://github.com/MOLOCH-dev/manipulator_rviz.git  
   
   
-*  roslaunch manipulator_rviz display.launch  
+*  roslaunch manipulator_description display.launch  
     *  If you come across this error  
 Could not find the GUI, install the 'joint_state_publisher_gui' package  
     *  Install  using  
 sudo apt install ros-<your_version_of_ros>-joint-state-publisher-gui 
-  
+----------------------------------------------------------------------  
   
 *  Once you are done with the visualisation with gui , Ctrl+ c to stop this .  
   
