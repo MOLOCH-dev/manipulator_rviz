@@ -26,7 +26,7 @@ Repo with new URDF of manipulator to visualize in RViz and using command line as
 ```
 *  Run the launch file
 ```
-  oslaunch manipulator_description display.launch 
+  roslaunch manipulator_description display.launch 
 ```
    *  If you come across this error  
 Could not find the GUI, install the 'joint_state_publisher_gui' package  
