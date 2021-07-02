@@ -28,6 +28,12 @@ Repo with new URDF of manipulator to visualize in RViz and using command line as
 ```
   roslaunch manipulator_description display.launch 
 ```
+
+<p align="center">
+  <img src="./assets/launch1.png" width="500"/>
+</p>
+
+
    *  If you come across this error  
 Could not find the GUI, install the 'joint_state_publisher_gui' package  
    *  Install  using  
