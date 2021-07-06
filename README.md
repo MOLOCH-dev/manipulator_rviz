@@ -77,7 +77,7 @@ On the 'Plugins' menu of RQT add the 'Topics->Message Publisher' plugin then cho
 /manipulator/joint_1_controller/command
 ```
 <p align="center">
-  <img src="./assets/Control_bot.gif" height = "800"/>
+  <img src="./assets/Control_bot.gif"/>
 </p>
 
 Then press the green plus sign button at the top right.
