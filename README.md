@@ -113,3 +113,19 @@ Add another topic to the Plot plugin that tracks the actual position of the actu
 In the graph you can see that the controller is trying to follow the command we have provided it. We have already set the PID values for our bot, but if you want to tune it there is a plugin in RQT. To know more about it visit [this tutorial](http://gazebosim.org/tutorials/?tut=ros_control#TunethePIDgains). 
 
 **Note :** The process value doesn't go lesser than zero because of the limits we have set on the joints which is 0 to pi radians.
+
+### Steps For Running the Scripts in Gazebo
+We will be testing out 3 scripts (Testing.py, forward_kinematics.py, inverse_kinematics.py).
+
+For running the scripts on gazebo, firstly launch gazebo world using the command
+
+```
+roslaunch manipulator_description gazebo.launch
+```
+
+After starting gazebo we will be testing out Testing.py. The command for that is :
+
+```
+rosrun manipulator_description Testing.py
+```
+Similarly, you can test out the scripts for  `forward_kinematics.py` and `inverse_kinematics.py`
