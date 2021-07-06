@@ -77,7 +77,7 @@ On the 'Plugins' menu of RQT add the 'Topics->Message Publisher' plugin then cho
 /manipulator/joint_1_controller/command
 ```
 <p align="center">
-  <img src="./assets/Control_bot.gif" height = "800"/>
+  <img src="./assets/Control_bot.gif"/>
 </p>
 
 Then press the green plus sign button at the top right.
@@ -123,9 +123,10 @@ For running the scripts on gazebo, firstly launch gazebo world using the command
 roslaunch manipulator_description gazebo.launch
 ```
 
-After starting gazebo we will be testing out Testing.py. The command for that is :
+After starting gazebo we will be testing out `Testing.py`. The command for that is :
 
 ```
 rosrun manipulator_description Testing.py
 ```
 Similarly, you can test out the scripts for  `forward_kinematics.py` and `inverse_kinematics.py`
+
